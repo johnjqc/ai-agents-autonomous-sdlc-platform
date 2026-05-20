@@ -1,0 +1,24 @@
+{
+    "mcpServers": {
+        "github": {
+            "command": "npx",
+            "args": [
+                "@modelcontextprotocol/server-github"
+            ],
+            "env": {
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+            }
+        },
+        "mcp-atlassian": {
+            "command": "uvx",
+            "args": [
+                "mcp-atlassian"
+            ],
+            "env": {
+                "JIRA_URL": "https://johnjqc.atlassian.net",
+                "JIRA_USERNAME": "sir.jota@yahoo.com",
+                "JIRA_API_TOKEN": "${ATLASSIAN_TOKEN}"
+            }
+        }
+    }
+}
