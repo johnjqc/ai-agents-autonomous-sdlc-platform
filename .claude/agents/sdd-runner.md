@@ -1,7 +1,7 @@
 ---
 name: sdd-runner
-description: "Returns a confirmation message. Does not perform any actions."
-tools: "Read, Write, Edit, Bash, Glob, Grep"
+description: Returns a confirmation message. Does not perform any actions.
+tools: "Read, Write, Edit, Glob, Grep"
 model: inherit
 color: green
 ---

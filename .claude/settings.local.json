@@ -2,5 +2,13 @@
   "enabledMcpjsonServers": [
     "github",
     "mcp-atlassian"
-  ]
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__mcp-atlassian__jira_get_issue",
+      "mcp__github__create_branch",
+      "mcp__github__push_files",
+      "mcp__github__create_pull_request"
+    ]
+  }
 }

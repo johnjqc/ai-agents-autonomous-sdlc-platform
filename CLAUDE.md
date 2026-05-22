@@ -18,8 +18,8 @@ cute these steps strictly in order. Do not skip, reorder, or parallelize them.
 | Step | Agent file | Invoke with | Success condition |
 |------|-----------|-------------|-------------------|
 | 1 | `@jira-reader.md` | The ticket ID only | Agent responds with success message |
-| 2 | `@spect-runner.md` | The response from Step 1 | Agent responds with any message |
-| 3 | `@cicd-runner.md` | The response from Step 2 | Agent responds with any message |
+| 2 | `@sdd-runner.md` | The response from Step 1 | Agent responds with any message |
+| 3 | `@cicd-runner.md` | The response from Step 1 + Step 2 | Agent responds with any message |
 
 When invoking a sub-agent, pass only what is specified in the "Invoke with" column.
 Do not add instructions, expected formats, or extra context to the invocation prompt.
