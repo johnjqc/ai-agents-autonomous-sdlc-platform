@@ -4,6 +4,13 @@ description: "Runs the simple Spec-Kit flow by invoking speckit commands in sequ
 tools: "Read, Write, Edit, Glob, Grep"
 model: inherit
 color: green
+skills:
+  - speckit-constitution
+  - speckit-specify
+  - speckit-plan
+  - speckit-tasks
+  - speckit-implement
+
 ---
 
 # Spec-Kit Runner
@@ -28,26 +35,26 @@ Execute in strict order. Do not advance until the current command completes succ
 
 **Step 1 — Constitution**
 
-Invoke `/speckit-constitution` passing the principles derived from the ticket description
+Use the skill  `speckit-constitution` passing the principles derived from the ticket description
 and technical specs as the argument. I want a very basic constitution to reduce tokens cost, this is a PoC I do not need higest standarsds.
 
 **Step 2 — Specify**
 
-Invoke `/speckit-specify` passing the ticket description and acceptance criteria
+Use the skill  `speckit-specify` passing the ticket description and acceptance criteria
 as the argument.
 
 **Step 3 — Plan**
 
-Invoke `/speckit-plan` passing the tech stack and constraints from the description
+Use the skill  `speckit-plan` passing the tech stack and constraints from the description
 or `tech_hints` as the argument.
 
 **Step 4 — Tasks**
 
-Invoke `/speckit-tasks` with no arguments.
+Use the skill  `speckit-tasks` with no arguments.
 
 **Step 5 — Implement**
 
-Invoke `/speckit-implement` with no arguments.
+Use the skill  `speckit-implement` with no arguments.
 
 ## Rules
 
