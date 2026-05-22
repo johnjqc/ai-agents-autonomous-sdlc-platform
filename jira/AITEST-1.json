@@ -1,0 +1,53 @@
+{
+         "id": "10000",
+         "key": "AITEST-1",
+         "summary": "Visualización de Hora Actual en Página Estática",
+         "description": "## User Story\n\nAS A system user,\nI WANT to access a static HTML file that displays the current time,\nSO THAT I can quickly
+       view the system time in a direct and simple way.\n\n## Acceptance Criteria\n\nScenario 1: Basic page rendering\n\n- GIVEN the user opens
+       index.html in any modern web browser,\n- WHEN the page has fully loaded,\n- THEN a clean layout must be displayed with a centered title reading
+       "Current Time".\n\nScenario 2: Time display and format\n\n- GIVEN the page is displayed in the browser,\n- WHEN the clock text is shown,\n- THEN
+       the time must follow 24-hour format (HH:MM:SS) (e.g., 14:35:08).\n\nScenario 3: Real-time update\n\n- GIVEN the user stays on the page without
+       reloading,\n- WHEN the system time changes,\n- THEN the displayed time must update automatically every second using basic JavaScript.\n\n##
+       Technical Specifications\n\n- Single self-contained file named index.html.\n- Technologies: HTML5, inline CSS3, vanilla JavaScript using the Date
+       object.\n- Design: readable sans-serif font, clean background, high contrast text,\nmain container centered both vertically and horizontally.",
+         "status": {
+           "name": "Tareas por hacer",
+           "category": "Por hacer",
+           "color": "blue-gray"
+         },
+         "issue_type": {
+           "name": "Historia"
+         },
+         "assignee": {
+           "display_name": "Unassigned"
+         },
+         "reporter": {
+           "display_name": "Sir Jota",
+           "name": "Sir Jota",
+           "email": "sir.jota@yahoo.com",
+           "avatar_url": "https://secure.gravatar.com/avatar/8187156cf19f38d63efbb890355ba2c9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.p
+       ublic.atl-paas.net%2Finitials%2FSJ-1.png"
+         },
+         "created": "2026-05-16T08:48:07.292-0500",
+         "updated": "2026-05-21T16:27:45.875-0500",
+         "fields": {
+           "custom": null,
+           "priority": null,
+           "labels": null,
+           "attachments": null,
+           "comments": null,
+           "epic": null,
+           "parent": null,
+           "subtasks": null,
+           "duedate": null,
+           "resolution": null,
+           "environment": null,
+           "components": null,
+           "versions": null,
+           "fixversions": null,
+           "votes": null,
+           "watches": null,
+           "transitions": null,
+           "changelog": null
+         }
+       }
