@@ -59,16 +59,6 @@ __pycache__/
 # .mcp/
 
 # Ignore Claude Code files
-.claude/mcp.json
-.mcp/
-
-.specify/
-
-artifacts/
-pipeline_log.md
-pipeline_state.json
-
-specs/
 
 .claude/worktrees/
 .claude/agent-memory
