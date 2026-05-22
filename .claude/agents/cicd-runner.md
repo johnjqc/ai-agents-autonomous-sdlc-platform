@@ -34,7 +34,7 @@ You receive the full pipeline context from Steps 1 and 2. Extract:
    If no changes are detected, report to the orchestrator and stop.
 2. Run `git add .` to stage all changes.
 3. Run `git commit -m "feat({ticket_id}): {ticket_summary}"`.
-4. Run `git push origin {branch_name}` to push the branch to the remote.
+4. Run `git push origin {branch_name}` to push the current branch to the remote.
 5. Call `mcp__github__create_pull_request` with `draft: true` only after
    Step 4 succeeds.
 6. Return the PR URL to the orchestrator.

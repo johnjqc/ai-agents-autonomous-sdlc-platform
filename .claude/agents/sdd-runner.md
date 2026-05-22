@@ -62,11 +62,8 @@ Invoke `/speckit.implement` with no arguments.
 Return this JSON when the flow completes:
 
 {
-  "status": "completed | partial | failed",
   "ticket_id": "AITEST-1",
   "ticket_summary": "Short summary from the Jira ticket",
-  "branch_name": "{NNN}-{slug}",
-  "feature_path": "specs/{NNN}-{slug}/",
   "files_created": ["path/file1", "path/file2"],
   "errors": []
 }
