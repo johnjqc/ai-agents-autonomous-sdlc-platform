@@ -32,6 +32,13 @@ between steps. Do not pause, prompt the user, or ask "would you like to proceed"
 at any point during execution. Invoke each step immediately after the previous one
 succeeds.
 
+## Trigger
+
+When asked to start or run a pipeline, always treat it as a fresh execution
+regardless of any previous pipeline runs in the conversation history.
+Never infer that a step has already completed based on prior context.
+Invoke the orchestrator agent immediately with the ticket ID as the only input.
+
 ## Orchestration Rules
 
 **At each step:**

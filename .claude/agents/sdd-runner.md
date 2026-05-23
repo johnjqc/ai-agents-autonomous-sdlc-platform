@@ -41,7 +41,7 @@ and technical specs as the argument. I want a very basic constitution to reduce 
 **Step 2 — Specify**
 
 Use the skill  `speckit-specify` passing the ticket description and acceptance criteria
-as the argument.
+as the argument. Be sure of git branch creation.
 
 **Step 3 — Plan**
 
@@ -56,6 +56,10 @@ Use the skill  `speckit-tasks` with no arguments.
 
 Use the skill  `speckit-implement` with no arguments.
 
+**Step 6 — Implement**
+
+Return the relevant information to the orchestrator for the CICD next step.
+
 ## Rules
 
 - Invoke each speckit command exactly once, in order.
@@ -63,15 +67,3 @@ Use the skill  `speckit-implement` with no arguments.
 - Never skip a step.
 - Never ask the user directly. If information is missing, report to the orchestrator and stop.
 - Do not proceed to the next step if the current one failed.
-
-## Output to Orchestrator
-
-Return this JSON when the flow completes:
-
-{
-  "ticket_id": "AITEST-1",
-  "ticket_summary": "Short summary from the Jira ticket",
-  "files_created": ["path/file1", "path/file2"],
-  "errors": []
-}
-

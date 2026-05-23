@@ -31,7 +31,7 @@ You receive the full pipeline context from Steps 1 and 2. Extract:
 ## Steps
 
 1. Run `git status` to confirm there are changes to commit.
-   If no changes are detected, report to the orchestrator and stop.
+   If no changes are detected, report to the orchestrator and stop. If the branch is still `main`, stop and report to the orchestrator.
 2. Run `git add .` to stage all changes.
 3. Run `git commit -m "feat({ticket_id}): {ticket_summary}"`.
 4. Run `git push origin {branch_name}` to push the current branch to the remote.
