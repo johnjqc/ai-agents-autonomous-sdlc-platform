@@ -2,8 +2,8 @@
 
 ## Core Principles
 
-### Principle 1: Minimal Self-Contained HTML
-The solution must be a **single self-contained file** (`index.html`) with no external dependencies. It must use **HTML5, inline CSS3, and vanilla JavaScript** to ensure portability and simplicity.
+### Principle 1: Single Self-Contained File
+The solution must be implemented as a **single self-contained file** named `index.html`. This file must include all necessary HTML, CSS, and JavaScript logic without relying on external dependencies.
 
 ### Principle 2: Functional Requirements
 - Display a **centered title** reading "Current Time".
@@ -11,18 +11,23 @@ The solution must be a **single self-contained file** (`index.html`) with no ext
 - Update the time **automatically every second** using vanilla JavaScript.
 
 ### Principle 3: Design Constraints
-- Use a **readable sans-serif font** (e.g., Arial, Helvetica).
+- Use a **readable sans-serif font** (e.g., Arial, Helvetica, or system default).
 - Ensure a **clean background** (e.g., white or light gray) and **high-contrast text** for readability.
-- Center the main container **both vertically and horizontally**.
+- Center the main container **both vertically and horizontally** on the page.
 
-## Technical Specifications
-
-- **File**: `index.html` (single file, no external dependencies).
-- **Technologies**: HTML5, inline CSS3, vanilla JavaScript (`Date` object).
-- **Behavior**: Real-time updates every second using `setInterval`.
+### Principle 4: Technical Constraints
+- Use **HTML5**, **inline CSS3**, and **vanilla JavaScript** (no frameworks or libraries).
+- The solution must work in **any modern web browser** without requiring additional setup.
 
 ## Governance
+- **Version**: 1.0.0
+- **Ratified**: 2026-05-23
+- **Last Amended**: 2026-05-23
+- **Amendment Policy**: This constitution defines the minimum requirements for the PoC. Amendments are allowed for clarity or correctness, but no additional constraints will be added without explicit approval.
 
-This constitution defines the **minimum requirements** for the PoC. Amendments are allowed for **clarity or correctness**, but no additional constraints will be added.
-
-**Version**: 1.0.0 | **Ratified**: 2026-05-22 | **Last Amended**: 2026-05-22
+## Sync Impact Report
+- **Version Change**: N/A (Initial Constitution)
+- **Modified Principles**: N/A
+- **Added Sections**: Core Principles, Governance
+- **Templates Requiring Updates**: None
+- **Follow-up TODOs**: None
