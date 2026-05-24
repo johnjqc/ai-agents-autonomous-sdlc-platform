@@ -20,8 +20,8 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project structure per implementation plan
-- [ ] T002 Create `src/` directory
+- [X] T001 Create project structure per implementation plan
+- [X] T002 Create `src/` directory
 
 ---
 
@@ -31,7 +31,7 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T003 Create `index.html` file in `src/`
+- [X] T003 Create `index.html` file in `src/`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin
 
@@ -45,12 +45,12 @@
 
 ### Implementation for User Story 1
 
-- [ ] T004 [P] [US1] Add `<!DOCTYPE html>` and basic HTML structure to `src/index.html`
-- [ ] T005 [P] [US1] Add centered title "Current Time" using `<h1>` in `src/index.html`
-- [ ] T006 [P] [US1] Add `<div id="time">` for time display in `src/index.html`
-- [ ] T007 [P] [US1] Add inline CSS for centered layout, readable sans-serif font, and high-contrast text in `src/index.html`
-- [ ] T008 [P] [US1] Add JavaScript to fetch current time in 24-hour format (HH:MM:SS) in `src/index.html`
-- [ ] T009 [P] [US1] Add JavaScript to update time every second using `setInterval` in `src/index.html`
+- [X] T004 [P] [US1] Add `<!DOCTYPE html>` and basic HTML structure to `src/index.html`
+- [X] T005 [P] [US1] Add centered title "Current Time" using `<h1>` in `src/index.html`
+- [X] T006 [P] [US1] Add `<div id="time">` for time display in `src/index.html`
+- [X] T007 [P] [US1] Add inline CSS for centered layout, readable sans-serif font, and high-contrast text in `src/index.html`
+- [X] T008 [P] [US1] Add JavaScript to fetch current time in 24-hour format (HH:MM:SS) in `src/index.html`
+- [X] T009 [P] [US1] Add JavaScript to update time every second using `setInterval` in `src/index.html`
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 

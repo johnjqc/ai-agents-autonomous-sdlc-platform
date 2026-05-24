@@ -27,6 +27,15 @@ The relevant fields are:
 - `summary` — the story title 
 - `description` — contains the full user story, acceptance criteria and technical specs
 
+## Core Rules & Lifecycle
+You must execute the following workflow stages sequentially for any new feature, bug fix, or project iteration. Do not skip steps. Each phase consumes the Markdown artifact produced by the previous phase.
+
+1. **Constitution**: Establish immutable project principles and constraints.
+2. **Specify**: Define **what** to build and **why**, independent of technology.
+3. **Plan**: Define **how** to build it, choosing architecture and tech stack.
+4. **Tasks**: Break down the plan into small, predictable, actionable tasks.
+5. **Implement**: Execute tasks one by one and write code, validating against requirements.
+
 ## Execution Flow
 
 Execute in strict order. Do not advance until the current command completes successfully.
