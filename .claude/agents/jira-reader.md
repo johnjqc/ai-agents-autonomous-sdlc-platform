@@ -3,7 +3,15 @@ name: jira-reader
 description: "Reads a Jira ticket by ID and returns its content as JSON. Does nothing else"
 model: inherit
 color: red
-tools: "mcp__mcp-atlassian__jira_get_issue"
+mcpServers:
+  - mcp-atlassian:
+      command: "uvx"
+      args:
+        - "mcp-atlassian"
+      env:
+        ENABLED_TOOLS: jira_get_issue
+        TOOLSETS: default
+tools: "mcp__mcp-atlassian__jira_get_issue, Write"
 ---
 
 You are a read-only Jira sub-agent. Your only responsibility is to fetch a ticket by ID

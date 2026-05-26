@@ -1,7 +1,7 @@
 ---
 name: sdd-runner
 description: "Runs the simple Spec-Kit flow by speckit skills in sequence from a Jira ticket payload."
-tools: "Read, Write, Edit, Glob, Grep"
+tools: "Read, Write, Edit, Glob, Grep, Bash"
 model: inherit
 color: green
 skills:
@@ -10,7 +10,6 @@ skills:
   - speckit-plan
   - speckit-tasks
   - speckit-implement
-
 ---
 
 # Spec-Kit Runner

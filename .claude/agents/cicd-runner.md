@@ -3,6 +3,11 @@ name: cicd-runner
 description: "Creates a branch, commits generated files, and opens a draft PR on GitHub."
 model: inherit
 color: purple
+mcpServers:
+  - github:
+      command: "npx"
+      args:
+        - "@modelcontextprotocol/server-github"
 tools: "mcp__github__push_files, mcp__github__create_pull_request, Bash"
 ---
 

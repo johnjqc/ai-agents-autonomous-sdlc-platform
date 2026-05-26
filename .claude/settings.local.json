@@ -4,11 +4,24 @@
     "mcp-atlassian"
   ],
   "permissions": {
+    "deny": [
+      "Read(./.env)"
+    ],
     "allow": [
       "mcp__mcp-atlassian__jira_get_issue",
       "mcp__github__create_branch",
       "mcp__github__push_files",
-      "mcp__github__create_pull_request"
+      "mcp__github__create_pull_request",
+      "Bash(git checkout *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git status *)",
+      "Bash(git commit *)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(pwd)",
+      "Write(jira-reader-output/**)"
     ]
   }
 }
