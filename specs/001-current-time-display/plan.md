@@ -4,7 +4,7 @@
 
 **Input**: Feature specification from `/specs/001-current-time-display/spec.md`
 
-## Summary
+## Summary 
 
 The goal is to create a single, self-contained `index.html` file that displays the current system time in a 24-hour format (`HH:MM:SS`). The page will feature a clean, centered design and will update automatically every second using vanilla JavaScript.
 
