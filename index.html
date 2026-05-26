@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Time</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a1a1a;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        #clock {
+            font-size: 4rem;
+            font-weight: bold;
+            font-variant-numeric: tabular-nums;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Current Time</h1>
+        <div id="clock">00:00:00</div>
+    </div>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        // Initial call to avoid 1s delay
+        updateTime();
+
+        // Update the clock every second
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>
